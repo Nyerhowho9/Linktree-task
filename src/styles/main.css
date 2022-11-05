@@ -1,7 +1,15 @@
+.upicon{
+    text-align: right;
+    padding-right: 100px;
+}
 #forward-icon{
     
     margin-top: 20px;
-    margin-right: -300px;
+    
+}
+.profile{
+    
+    text-align: center;
 }
 #twitter{
     color: black;
@@ -22,11 +30,12 @@
     margin-bottom: 30px;
 }
 a{
+    text-align: center;
+    margin: auto;
     background-color: #EAECF0;
     text-decoration: none;
     color: black;
     width: 90%;
-    margin: auto;
     height: 40px;
     border-radius: 10px;
     padding-top: 20px;

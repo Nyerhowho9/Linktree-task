@@ -1,9 +1,10 @@
 import React from "react";
 import { Component } from "react";
-import '../styles/main.css';
 import slack from '../images/slack.png'
 import git from '../images/git.png'
-import { Link } from 'react-router-dom'
+import { Route, Link } from 'react-router-dom';
+import '../styles/main.css';
+
 
 class Links extends Component{
     constructor(props){
@@ -19,6 +20,7 @@ class Links extends Component{
                 <a id="pitch" href="https://background.zuri.team/" title="Best services rendered for getting background check on coders">Background check for coders</a>
                 <a id="book__design" href="https://books.zuri.team/design-rules" title="Learn design for free, with this great book, 'HNG design rules' ">Design Books</a>  
                 <Link to="/contact" >Contact Me</Link>
+                
                 <div id="social-icons">
                     <img src={slack} id="slack-icon" alt="slack icon"/>
                     <img src={git} id="git-icon" alt="github icon"/>

@@ -11,9 +11,12 @@ class Profile extends Component {
     render(){
         
       return <div>
-        <img src={img} alt="Nyerho profile pic" id="profile-picture" />
-        <h2 id="twitter" > {this.props.twittername} </h2>
-        <h2 id="slack" > Nyerho</h2>
+        <div className="profile">
+          <img src={img} alt="Nyerho profile pic" id="profile-picture" />
+          <h2 id="twitter" > {this.props.twittername} </h2>
+          <h2 id="slack" > Nyerho</h2>
+        </div>
+        
       </div>;  
     };
 }
