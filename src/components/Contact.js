@@ -8,16 +8,18 @@ class Contact extends Component{
     }
     render(){
         return <div>
-            <h1>Contact Me</h1>
-            <p>Hi there, contact me to ask me about anything you have in mind.</p>
+            <div className="headingdiv">
+                <h1 className="contactHeading">Contact Me</h1>
+                <p className="contactPara">Hi there, contact me to ask me about anything you have in mind.</p>
+            </div>
 
-            <form>
+            <form className="contactForm">
                 <div className="names">
-                    <div className="firstnamediv">
+                    <div className="fnamediv">
                         <label htmlFor="first_name">First name</label>
                         <input type="text" id="first_name" placeholder="Enter your first name"/>
                     </div>
-                    <div className="lastnamediv">
+                    <div className="lnamediv">
                         <label htmlFor="last_name">Last name</label>
                         <input type="text" id="last_name" placeholder="Enter your last name"/>
                     </div>
@@ -31,8 +33,8 @@ class Contact extends Component{
                     <label htmlFor="message">Message</label>
                     <textarea id="message" placeholder="Send me a message and i'll reply you as soon as possible..."></textarea>
                 </div>
-                <div>
-                    <input type="checkbox"/>
+                <div className="check">
+                    <input type="checkbox" className="tick"/>
                     <label>You agree to providing your data to (Nyerho) who may contact you.</label>
                 </div>
                 <button id="btn__submit">Send message</button>
