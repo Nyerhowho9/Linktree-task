@@ -8,8 +8,8 @@ import '../src/styles/main.css';
 function App() {
   return (
         <Routes>
-          <Route exact path="/" element={<Home/>}/>
-          <Route exact path="/contact" element={<Contactus/>}/>
+          <Route exact path="/Linktree-task" element={<Home/>}/>
+          <Route path="/contact" element={<Contactus/>}/>
           
         </Routes>
   );
