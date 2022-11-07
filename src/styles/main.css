@@ -116,7 +116,7 @@ a{
     flex-direction: column;
 }
 .fnamediv, .lnamediv, .emaildiv, .messagediv, .check{
-margin-bottom: 10px;
+margin-bottom: 20px;
 width: 100%;
 }
 #first_name{
