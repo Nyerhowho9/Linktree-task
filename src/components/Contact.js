@@ -5,6 +5,10 @@ import '../styles/main.css';
 class Contact extends Component{
     constructor(props){
         super(props);
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
+    handleSubmit(event){
+        event.preventDefault();
     }
     render(){
         return <div>
@@ -37,7 +41,7 @@ class Contact extends Component{
                     <input type="checkbox" className="tick"/>
                     <label>You agree to providing your data to (Nyerho) who may contact you.</label>
                 </div>
-                <button id="btn__submit" type="submit">Send message</button>
+                <button id="btn__submit" type="submit" onClick={this.handleSubmit}>Send message</button>
             </form>
         </div>;
     }
