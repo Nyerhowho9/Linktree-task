@@ -19,7 +19,7 @@ class Links extends Component{
                 <a id="book__python" href=" https://books.zuri.team/python-for-beginners?ref_id" title="Python for beginners to learning coding">Python Books</a>
                 <a id="pitch" href="https://background.zuri.team/" title="Best services rendered for getting background check on coders">Background check for coders</a>
                 <a id="book__design" href="https://books.zuri.team/design-rules" title="Learn design for free, with this great book, 'HNG design rules' ">Design Books</a>  
-                <Link to="/contact" >Contact Me</Link>
+                <Link to="/contact" id="contact">Contact Me</Link>
                 
                 <div id="social-icons">
                     <img src={slack} id="slack-icon" alt="slack icon"/>
