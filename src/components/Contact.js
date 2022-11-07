@@ -27,7 +27,7 @@ class Contact extends Component{
                 </div>
                 <div className="emaildiv">
                     <label htmlFor="email">Email</label>
-                    <input type="email" id="email" placeholder="ny@email.com"/>
+                    <input type="email" id="email" placeholder="yourname@email.com"/>
                 </div>
                 <div className="messagediv">
                     <label htmlFor="message">Message</label>
