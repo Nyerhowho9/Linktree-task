@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Linktree-task/static/css/main.d9d6020a.css",
-    "main.js": "/Linktree-task/static/js/main.118a87f0.js",
+    "main.js": "/Linktree-task/static/js/main.eac738c2.js",
     "static/js/787.55f350d7.chunk.js": "/Linktree-task/static/js/787.55f350d7.chunk.js",
     "static/media/ny.png": "/Linktree-task/static/media/ny.155b6f16dc722c16b773.png",
     "index.html": "/Linktree-task/index.html",
     "main.d9d6020a.css.map": "/Linktree-task/static/css/main.d9d6020a.css.map",
-    "main.118a87f0.js.map": "/Linktree-task/static/js/main.118a87f0.js.map",
+    "main.eac738c2.js.map": "/Linktree-task/static/js/main.eac738c2.js.map",
     "787.55f350d7.chunk.js.map": "/Linktree-task/static/js/787.55f350d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d9d6020a.css",
-    "static/js/main.118a87f0.js"
+    "static/js/main.eac738c2.js"
   ]
 }
