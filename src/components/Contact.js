@@ -37,7 +37,7 @@ class Contact extends Component{
                     <input type="checkbox" className="tick"/>
                     <label>You agree to providing your data to (Nyerho) who may contact you.</label>
                 </div>
-                <button id="btn__submit">Send message</button>
+                <button id="btn__submit" type="submit">Send message</button>
             </form>
         </div>;
     }
